@@ -308,10 +308,9 @@
 #define BTM_DISC_DURING_RS TRUE
 #endif
 
-/*  This is used to work around a controller bug that report supporting
- *  enhanced synchronous commands */
+/* Disables Sco Enhanced Absent on pre-Oreo bluetooth Firmware */
 #ifndef BTM_SCO_ENHANCED_SYNC_ENABLED
-#define BTM_SCO_ENHANCED_SYNC_ENABLED TRUE
+#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
 #endif
 
 /**************************
